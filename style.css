@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900$display=swap');
+.
+{
+margin: 0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Poppins', sans-serif;
+}
+
+body
+{
+min-height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+width: 90%;
+background-size: cover;
+background-position: center;
+}
+
+header
+{
+position: absolute;
+top: 0;
+left: 0;
+width: 80%;
+padding: 30px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center:
+}
+
+header .logo
+{
+color:(red, yellow, blue, orange);
+font-weight: 70;
+font-size: 50px;
+text-align: right;
+background: linear-gradient(90deg, rgba(0,30,36,1) 24%, rgba(0,251,58,1) 66%, rgba(0,212,255,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-stroke: 5px transparent;
+color: #000; 
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+
+header ul
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+header ul li
+{
+list-style: none;
+margin-left: 20px;
+color: #fff;
+border-radius: 20px;
+}
+
+header ul li a
+{
+text-decoration: none;
+padding: 6px 15px;
+color: #00bbf0;
+border-radius: 20px;
+}
+
+
+header ul li a:hover,
+header ul li a.active
+{
+background: #fff;
+color: #2b1055;
+}
+ 
+
+
+.sidenav {
+  height:70%;
+  width: 150px;
+  position: fixed;
+  z-index: 1;
+  top: 20%;
+  left: 5;
+  down: 50%:
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+ text-align: center;
+text-color: #fff;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #00bbf0;
+  border-radius: 20px;
+  display: block;
+  margin: 10%;
+}
+
+.sidenav a:hover {
+    color: #2b1055;
+background: #fff;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.pic{
+margin: 65%;
+margin-top: 5%;
+}
+
+.picture{
+margin-top: 10%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+
+}
+
+
+.name{
+text-align: center;
+color: #00bbf0;
+}
+
+.picture3{
+margin-top: 5%;
+color: #fff;
+margin:8%;
+}
+
+.picture4{
+margin-top: 10%;
+color: white;
+font-family: 'Century Gothic',sans-serif;
+
+}
